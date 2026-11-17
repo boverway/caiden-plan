@@ -634,6 +634,51 @@ footer.site-foot {
   body { font-size: 1.02rem; }
 }
 
+
+/* ----- exercise demo links ----- */
+a.ex-link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #DC3239;
+  padding-bottom: 0.05em;
+  -webkit-tap-highlight-color: rgba(220, 50, 57, 0.18);
+}
+a.ex-link::after {
+  content: " \25B6";
+  font-size: 0.62em;
+  color: #DC3239;
+  font-weight: 700;
+  margin-left: 0.08em;
+  vertical-align: 0.12em;
+  border: 0;
+  text-decoration: none;
+  speak: never;
+}
+a.ex-link:hover,
+a.ex-link:focus-visible {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom-style: solid;
+}
+.ex-hint {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--grey);
+  margin: 0.35rem 0 0.75rem;
+}
+@media print {
+  a.ex-link {
+    color: inherit !important;
+    border-bottom: 1px dotted #DC3239;
+    font-weight: inherit;
+  }
+  a.ex-link::after,
+  a.ex-link[href]::after {
+    content: none !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -751,56 +796,57 @@ footer.site-foot {
 <p><strong>Adjust every 2 weeks:</strong> gaining under 0.5 lb/week → add 250–300 cal/day (half a shake). 0.75–1.25 → change nothing. Over 1.5, or waist up more than 1 inch a month → cut 200–250 cal of junk. <strong>Supplements:</strong> creatine 3–5 g/day (tested brand, doctor OK first) and whey as backup food. That's it.</p>
 
 <h2 id="train"><span class="sl"></span>Train: The Weekly Plan</h2>
+<p class="ex-hint">Tap any exercise to watch a demo.</p>
 <div class="week-grid" id="week-plan">
   <div class="day"><h3>Mon</h3><p><strong>Lift A</strong> Squat + push</p></div>
-  <div class="day"><h3>Tue</h3><p>Speed/COD 20 min + wall ball</p></div>
+  <div class="day"><h3>Tue</h3><p>Speed/COD 20 min + <a class="ex-link" href="https://www.youtube.com/watch?v=fLQhNF0nHaU" target="_blank" rel="noopener">wall ball</a></p></div>
   <div class="day"><h3>Wed</h3><p><strong>Lift B</strong> Pull + neck</p></div>
-  <div class="day"><h3>Thu</h3><p>Wall ball or rest</p></div>
+  <div class="day"><h3>Thu</h3><p><a class="ex-link" href="https://www.youtube.com/watch?v=fLQhNF0nHaU" target="_blank" rel="noopener">Wall ball</a> or rest</p></div>
   <div class="day"><h3>Fri</h3><p><strong>Lift C</strong> Deadlift + power</p></div>
   <div class="day"><h3>Sat</h3><p><strong>Lift D</strong> Full body + agility</p></div>
   <div class="day"><h3>Sun</h3><p><strong>Rest</strong> + church + meal prep</p></div>
 </div>
-<p><strong>Every day:</strong> 10-min warm-up before training (jog, dynamic stretches, skips, ramp-up sets) · 15–20 min wall ball · 10 min mobility before bed (couch stretch, hamstrings, calves, hips).</p>
+<p><strong>Every day:</strong> 10-min warm-up before training (jog, <a class="ex-link" href="https://www.youtube.com/watch?v=7dT4KHtMM-A" target="_blank" rel="noopener">dynamic stretches</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=A7r6yCpmSrA" target="_blank" rel="noopener">skips</a>, ramp-up sets) · 15–20 min <a class="ex-link" href="https://www.youtube.com/watch?v=fLQhNF0nHaU" target="_blank" rel="noopener">wall ball</a> · 10 min mobility before bed (<a class="ex-link" href="https://www.youtube.com/watch?v=TML8Vqy-ACQ" target="_blank" rel="noopener">couch stretch</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=r7Of03DkVMA" target="_blank" rel="noopener">hamstrings</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=trC42QD0wQI" target="_blank" rel="noopener">calves</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=Lx07WIkllbA" target="_blank" rel="noopener">hips</a>).</p>
 
 <div class="lift-grid" id="lift-days">
   <article class="lift-card">
     <h3>Lift A: Squat + Push</h3>
     <ul>
-      <li>Box jump 3×3</li>
-      <li><strong>Back squat</strong> (phase table)</li>
-      <li><strong>Bench press</strong> (phase table)</li>
-      <li>Split squat 3×8/leg</li>
-      <li>Face pulls 3×15 · core</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=sZ4Jcs8dY2M" target="_blank" rel="noopener">Box jump</a> 3×3</li>
+      <li><strong><a class="ex-link" href="https://www.youtube.com/watch?v=bEv6CCg2BC8" target="_blank" rel="noopener">Back squat</a></strong> (phase table)</li>
+      <li><strong><a class="ex-link" href="https://www.youtube.com/watch?v=vcBig73ojpE" target="_blank" rel="noopener">Bench press</a></strong> (phase table)</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=4bNQITw0VdY" target="_blank" rel="noopener">Split squat</a> 3×8/leg</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=sHSY0Ao8QHs" target="_blank" rel="noopener">Face pulls</a> 3×15 · <a class="ex-link" href="https://www.youtube.com/watch?v=2_e4I-brfqs" target="_blank" rel="noopener">core</a></li>
     </ul>
   </article>
   <article class="lift-card">
     <h3>Lift B: Pull + Neck</h3>
     <ul>
-      <li>Med-ball chest pass 3×5</li>
-      <li><strong>Pull-ups</strong> 4×5–10</li>
-      <li><strong>Row</strong> 4×8–10</li>
-      <li>Neck 4-way 2×12–15</li>
-      <li>Farmer carry 3×30 yd</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=Ct9ZGZW7Q_4" target="_blank" rel="noopener">Med-ball chest pass</a> 3×5</li>
+      <li><strong><a class="ex-link" href="https://www.youtube.com/watch?v=sIvJTfGxdFo" target="_blank" rel="noopener">Pull-ups</a></strong> 4×5–10</li>
+      <li><strong><a class="ex-link" href="https://www.youtube.com/watch?v=axoeDmW0oAY" target="_blank" rel="noopener">Row</a></strong> 4×8–10</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=H3jbpnmmTh0" target="_blank" rel="noopener">Neck 4-way</a> 2×12–15</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=8OtwXwrJizk" target="_blank" rel="noopener">Farmer carry</a> 3×30 yd</li>
     </ul>
   </article>
   <article class="lift-card">
     <h3>Lift C: Hinge + Power</h3>
     <ul>
-      <li>Trap-bar jump 3×3</li>
-      <li><strong>Trap-bar deadlift</strong> (phase table)</li>
-      <li>DB incline bench 3×8–10</li>
-      <li>Nordic curl 3×4–6</li>
-      <li>Copenhagen plank 3×20 s</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=bJPHNoADzZU" target="_blank" rel="noopener">Trap-bar jump</a> 3×3</li>
+      <li><strong><a class="ex-link" href="https://www.youtube.com/watch?v=1a7WNMgKIZQ" target="_blank" rel="noopener">Trap-bar deadlift</a></strong> (phase table)</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=LYZDsNv8kJ8" target="_blank" rel="noopener">DB incline bench</a> 3×8–10</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=htyDuCI8cm8" target="_blank" rel="noopener">Nordic curl</a> 3×4–6</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=YRRnnZsRs9U" target="_blank" rel="noopener">Copenhagen plank</a> 3×20 s</li>
     </ul>
   </article>
   <article class="lift-card">
     <h3>Lift D: Full Body</h3>
     <ul>
-      <li>Broad jump 3×3</li>
-      <li>Goblet/front squat 3×8–10</li>
-      <li>DB bench 3×10–12</li>
-      <li>Lat pulldown 3×10–12</li>
-      <li>Lateral lunge · curls · calves</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=r-YCI6g4MNc" target="_blank" rel="noopener">Broad jump</a> 3×3</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=aEbQO49ru4Q" target="_blank" rel="noopener">Goblet</a>/<a class="ex-link" href="https://www.youtube.com/watch?v=v-mQm_droHg" target="_blank" rel="noopener">front squat</a> 3×8–10</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=SHsUIZiNdeY" target="_blank" rel="noopener">DB bench</a> 3×10–12</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=hnSqbBk15tw" target="_blank" rel="noopener">Lat pulldown</a> 3×10–12</li>
+      <li><a class="ex-link" href="https://www.youtube.com/watch?v=flIzNFC05j0" target="_blank" rel="noopener">Lateral lunge</a> · <a class="ex-link" href="https://www.youtube.com/watch?v=cOlPpzEaAE8" target="_blank" rel="noopener">curls</a> · <a class="ex-link" href="https://www.youtube.com/watch?v=AII23B8YjiY" target="_blank" rel="noopener">calves</a></li>
     </ul>
   </article>
 </div>
@@ -813,21 +859,21 @@ footer.site-foot {
   <tbody>
     <tr>
       <td class="row-head"><span class="row-title">Build muscle (Oct–Dec)</span></td>
-      <td data-label="Speed / change of direction">6–8 × 10–15 yd starts · 5-10-5 shuttle × 4–5 · lateral shuffle and crossover drills</td>
+      <td data-label="Speed / change of direction">6–8 × <a class="ex-link" href="https://www.youtube.com/watch?v=13K8CIuUlXY" target="_blank" rel="noopener">10–15 yd starts</a> · <a class="ex-link" href="https://www.youtube.com/watch?v=SVG8Qmp1sy0" target="_blank" rel="noopener">5-10-5 shuttle</a> × 4–5 · <a class="ex-link" href="https://www.youtube.com/watch?v=mziPKITnPeQ" target="_blank" rel="noopener">lateral shuffle</a> and <a class="ex-link" href="https://www.youtube.com/watch?v=PBr2O-OUgaU" target="_blank" rel="noopener">crossover drills</a></td>
     </tr>
     <tr>
       <td class="row-head"><span class="row-title">Strength (Dec–Jan)</span></td>
-      <td data-label="Speed / change of direction">Flying 10s × 4–5 · sled sprints 6 × 15 yd · 5-10-5 × 6</td>
+      <td data-label="Speed / change of direction"><a class="ex-link" href="https://www.youtube.com/shorts/g8X7AdU6Vos" target="_blank" rel="noopener">Flying 10s</a> × 4–5 · <a class="ex-link" href="https://www.youtube.com/watch?v=m3e1dtvoQX0" target="_blank" rel="noopener">sled sprints</a> 6 × 15 yd · <a class="ex-link" href="https://www.youtube.com/watch?v=SVG8Qmp1sy0" target="_blank" rel="noopener">5-10-5</a> × 6</td>
     </tr>
     <tr>
       <td class="row-head"><span class="row-title">Power + speed (Feb–Mar)</span></td>
-      <td data-label="Speed / change of direction">4 × 30 yd max speed · partner mirror drills · lacrosse shuttles 6–10 × 40 yd (30–40 s rest), 2×/week</td>
+      <td data-label="Speed / change of direction">4 × <a class="ex-link" href="https://www.youtube.com/watch?v=XHkyt41GJKo" target="_blank" rel="noopener">30 yd max speed</a> · <a class="ex-link" href="https://www.youtube.com/watch?v=Pb15pCX16H8" target="_blank" rel="noopener">partner mirror drills</a> · <a class="ex-link" href="https://www.youtube.com/results?search_query=lacrosse+shuttle+run+conditioning+demo" target="_blank" rel="noopener">lacrosse shuttles</a> 6–10 × 40 yd (30–40 s rest), 2×/week</td>
     </tr>
   </tbody>
 </table>
 <p><strong>Rules:</strong> Technique first. Leave 2–3 reps in the tank (no failure on big lifts). When every set hits the top of the rep range, add 5 lb (upper) or 5–10 lb (lower). Keep conditioning short (sprints, shuttles), not long runs, to protect the weight gain.</p>
 
-<p id="phases"><strong>The 20 weeks at a glance (main lifts: squat, trap-bar deadlift, bench)</strong></p>
+<p id="phases"><strong>The 20 weeks at a glance (main lifts: <a class="ex-link" href="https://www.youtube.com/watch?v=bEv6CCg2BC8" target="_blank" rel="noopener">squat</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=1a7WNMgKIZQ" target="_blank" rel="noopener">trap-bar deadlift</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=vcBig73ojpE" target="_blank" rel="noopener">bench</a>)</strong></p>
 <table class="stack" id="phase-table">
   <thead>
     <tr><th>Dates</th><th>Phase</th><th>Sets × reps</th><th>Notes</th></tr>
@@ -876,9 +922,9 @@ footer.site-foot {
 <ul>
   <li><strong>Add a 5th session on Thursday:</strong> speed + skill, or a short upper-body/neck lift. Sunday stays a full rest day. Christmas and New Year's Day are skill-only.</li>
   <li><strong>Add a 4th meal</strong> (about 500–600 cal, like 2 bagels with PB + milk) for about <strong>3,900–4,100 cal/day</strong>. Target <strong>+2–3 lb</strong> over the break.</li>
-  <li><strong>Sleep 9.5–10 h with a steady wake time</strong> (8 am, not noon). Daily: 300 wall-ball reps + 15 min of stick work.</li>
+  <li><strong>Sleep 9.5–10 h with a steady wake time</strong> (8 am, not noon). Daily: 300 <a class="ex-link" href="https://www.youtube.com/watch?v=fLQhNF0nHaU" target="_blank" rel="noopener">wall-ball</a> reps + 15 min of <a class="ex-link" href="https://www.youtube.com/watch?v=HSNR9_pCVEU" target="_blank" rel="noopener">stick work</a>.</li>
   <li><strong>Back off to 4 sessions</strong> if sleep drops under 9 h, joints get sore, or lifts go backward. More isn't better if you're not recovering.</li>
-  <li><strong>PR test Sat Jan 2 (with a coach):</strong> 3-rep max on squat, trap-bar deadlift, and bench, plus pull-ups, 10-yd, 5-10-5, vertical, and weight. The deload follows right after.</li>
+  <li><strong>PR test Sat Jan 2 (with a coach):</strong> 3-rep max on <a class="ex-link" href="https://www.youtube.com/watch?v=bEv6CCg2BC8" target="_blank" rel="noopener">squat</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=1a7WNMgKIZQ" target="_blank" rel="noopener">trap-bar deadlift</a>, and <a class="ex-link" href="https://www.youtube.com/watch?v=vcBig73ojpE" target="_blank" rel="noopener">bench</a>, plus <a class="ex-link" href="https://www.youtube.com/watch?v=sIvJTfGxdFo" target="_blank" rel="noopener">pull-ups</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=13K8CIuUlXY" target="_blank" rel="noopener">10-yd</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=SVG8Qmp1sy0" target="_blank" rel="noopener">5-10-5</a>, <a class="ex-link" href="https://www.youtube.com/watch?v=GozaG81Fquk" target="_blank" rel="noopener">vertical</a>, and weight. The deload follows right after.</li>
 </ul>
 <p><strong>Weight checkpoints (7-day average):</strong> 145 by Nov 22 · 148 by Dec 20 · <strong>150–151 by Jan 3</strong> · 155 by Jan 31 · 157 by Feb 14 · <strong>160 by Mar 14</strong>. Grow an inch? Add about 5 lb to the later targets.</p>
 <p><strong>In season (from Mar 15):</strong> lift 2×/week (35–45 min, heavy but short), and eat more, not less. The goal is to hold or slowly gain.</p>
@@ -889,9 +935,9 @@ footer.site-foot {
   <li><strong>Never under-eat.</strong> Low fuel can slow growth and bone building. If the weight drops or you're always tired, add food first.</li>
   <li><strong>Bones:</strong> about <strong>1,300 mg calcium a day</strong> (3–4 servings of milk, yogurt, or cheese) and <strong>600 IU vitamin D</strong>. Michigan winter sun is too weak, so ask the doctor to check your vitamin D level.</li>
   <li><strong>Lifting doesn't stunt growth</strong> when it's coached and done with good form (AAP). The risks are sloppy technique and max-outs without a spotter.</li>
-  <li><strong>Growth-spurt warning signs:</strong> pain below the kneecap (Osgood-Schlatter), heel pain, or low-back pain when arching for 2+ weeks. Cut jumps and sprints by half, swap in box squats and trap-bar work, and see the athletic trainer.</li>
+  <li><strong>Growth-spurt warning signs:</strong> pain below the kneecap (Osgood-Schlatter), heel pain, or low-back pain when arching for 2+ weeks. Cut jumps and sprints by half, swap in <a class="ex-link" href="https://www.youtube.com/watch?v=vBEsCb3faPA" target="_blank" rel="noopener">box squats</a> and <a class="ex-link" href="https://www.youtube.com/watch?v=1a7WNMgKIZQ" target="_blank" rel="noopener">trap-bar work</a>, and see the athletic trainer.</li>
 </ul>
-<p><strong>10-minute mobility before bed:</strong> couch stretch 2 × 45 s/side · strap hamstring stretch 2 × 45 s/side · wall calf stretch 2 × 30 s · 90/90 hip switches × 8/side · open-book T-spine × 8/side · deep goblet squat hold 2 × 30 s.</p>
+<p><strong>10-minute mobility before bed:</strong> <a class="ex-link" href="https://www.youtube.com/watch?v=TML8Vqy-ACQ" target="_blank" rel="noopener">couch stretch</a> 2 × 45 s/side · <a class="ex-link" href="https://www.youtube.com/watch?v=r7Of03DkVMA" target="_blank" rel="noopener">strap hamstring stretch</a> 2 × 45 s/side · <a class="ex-link" href="https://www.youtube.com/watch?v=trC42QD0wQI" target="_blank" rel="noopener">wall calf stretch</a> 2 × 30 s · <a class="ex-link" href="https://www.youtube.com/watch?v=Lx07WIkllbA" target="_blank" rel="noopener">90/90 hip switches</a> × 8/side · <a class="ex-link" href="https://www.youtube.com/watch?v=peeW19ofFUg" target="_blank" rel="noopener">open-book T-spine</a> × 8/side · <a class="ex-link" href="https://www.youtube.com/watch?v=0MbDHFGdL-s" target="_blank" rel="noopener">deep goblet squat hold</a> 2 × 30 s.</p>
 
 <h2 id="recruiting"><span class="sl"></span>Recruiting (short version)</h2>
 <ul>
